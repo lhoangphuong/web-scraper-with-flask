@@ -8,7 +8,7 @@ soup = BeautifulSoup(page.content, 'html.parser')
 title = soup.head.title.text
 version = 'v1.0'
 status = 'developing'
-shortcut = 'none'
+shortcut = 'click on these tab to quickly open pages'
 
 users = [
    {'name': "Tom", 'age': 10},
